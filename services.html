@@ -137,7 +137,7 @@
             <form class="form-horizontal" role="form">
                 <div class="form-group">
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="cl" id="cl">
+                        <select type="text" class="form-control" data-ng-model="cl" id="cl" required>
                             <option value="" disabled selected>Current League</option>
                             <option value="unranked">Unranked</option>
                             <option value="bronze">Bronze</option>
@@ -148,7 +148,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="cd" id="cd">
+                        <select type="text" class="form-control" data-ng-model="cd" id="cd" required>
                             <option value="" disabled selected>Current Division</option>
                             <option value="unranked">Unranked</option>
                             <option value="I">I</option>
@@ -159,7 +159,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="dl" id="dl">
+                        <select type="text" class="form-control" data-ng-model="dl" id="dl" required>
                             <option value="" disabled selected>Desired League</option>
                             <option value="unranked">Unranked</option>
                             <option value="bronze">Bronze</option>
@@ -170,7 +170,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="dd" id="dd">
+                        <select type="text" class="form-control" data-ng-model="dd" id="dd" required>
                             <option value="" disabled selected>Desired Division</option>
                             <option value="unranked">Unranked</option>
                             <option value="I">I</option>
@@ -202,7 +202,7 @@
                     </div>
                     <div class="col-sm-3">
                         <input type="text" class="form-control" data-ng-model="email" id="email"
-                               placeholder="Valid Email Address">
+                               placeholder="Valid Email Address" required>
                     </div>
                     <div class="col-sm-3">
                         <input type="text" class="form-control" data-ng-model="phone" id="phone"

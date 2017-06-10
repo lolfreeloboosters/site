@@ -198,7 +198,7 @@ footer .fa {
 /* ---- sections ---- */
 
 #home {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
   color:#75b1ed;
   font-family: 'Bitter', serif;
 }
@@ -211,7 +211,7 @@ footer .fa {
 
 #contact {
   background-color: #f6f6f6;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
   color:#fff;
 }
 
