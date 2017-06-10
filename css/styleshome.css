@@ -167,8 +167,8 @@ section {
     }
 }
 
-.green .active a,
-.green .active a:hover {
+.yellow .active a,
+.yellow .active a:hover {
     background-color: #D4AF37;
 }
 
