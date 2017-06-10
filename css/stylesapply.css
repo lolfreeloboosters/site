@@ -28,8 +28,16 @@ a:hover {
     color:#C0C0C0;
 }
 
-.btn,.well,.panel {
+.btn,.well {
     border-radius:0;
+}
+
+.center-pills { display: inline-block; }
+
+.panel > .panel-heading {
+    border: none;
+    background-color: #2A2A2A;
+    color: #FF3404;
 }
 
 .btn-danger {
@@ -101,8 +109,6 @@ a:hover {
 .navbar-brand {
     margin-top: -2px; /* fix when borderless logo used */
 }
-
-.center-pills { display: inline-block; }
 
 .scroll-down {
   position: absolute;
@@ -236,12 +242,6 @@ footer .fa {
 .grid-item--height2 { height: 640px; }
 .grid-item--height3 { height: 960px; }
 .grid-item--height4 { height: 1280px; }
-
-.panel > .panel-heading {
-    border: none;
-    background-color: #2A2A2A;
-    color: #FF3404;
-}
 
 /* ---- sections ---- */
 

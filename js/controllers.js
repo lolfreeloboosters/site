@@ -25,7 +25,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
             },
             data: {
                 "cl": $scope.cl,
-                "cd": $scope.cd
+                "cd": $scope.cd,
                 "dl": $scope.dl,
                 "dd": $scope.dd,
                 "lpg": $scope.lpg,

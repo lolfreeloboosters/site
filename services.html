@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The site for LoLFreeloBoosters">
     <meta name="author" content="James Jiang">
-###    <link rel="icon" href="resources/icons/card.ico">
+    <link rel="icon" href="resources/icons/card.ico">
 
     <title>LoL Freelo Boosters</title>
 
@@ -29,7 +29,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand text-primary" href="/index"><img class="brand-icon"
-###                                                                     src="resources/img/logos/v2-no.gif">Home</a>
+                                                                     src="resources/img/logos/v2-no.gif">Home</a>
         </div>
         <div class="navbar-collapse collapse" id="navbar-collapsible">
             <ul class="nav navbar-nav navbar-left">
@@ -38,7 +38,7 @@
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/faq">FAQ</a></li>
                 <li><a href="/Extra">Extra</a></li>
-                <li><a href="/apply#contact">Contact Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
                 <li>&nbsp;</li>
             </ul>
         </div>
@@ -134,12 +134,10 @@
             </div>
         </div>
         <div class="row">
-            <p>
-
             <form class="form-horizontal" role="form">
                 <div class="form-group">
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="cl" id="cl" required>
+                        <select type="text" class="form-control" data-ng-model="cl" id="cl">
                             <option value="" disabled selected>Current League</option>
                             <option value="unranked">Unranked</option>
                             <option value="bronze">Bronze</option>
@@ -150,7 +148,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="cd" id="cd" required>
+                        <select type="text" class="form-control" data-ng-model="cd" id="cd">
                             <option value="" disabled selected>Current Division</option>
                             <option value="unranked">Unranked</option>
                             <option value="I">I</option>
@@ -161,7 +159,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="dl" id="dl" required>
+                        <select type="text" class="form-control" data-ng-model="dl" id="dl">
                             <option value="" disabled selected>Desired League</option>
                             <option value="unranked">Unranked</option>
                             <option value="bronze">Bronze</option>
@@ -172,7 +170,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="dd" id="dd" required>
+                        <select type="text" class="form-control" data-ng-model="dd" id="dd">
                             <option value="" disabled selected>Desired Division</option>
                             <option value="unranked">Unranked</option>
                             <option value="I">I</option>
@@ -204,7 +202,7 @@
                     </div>
                     <div class="col-sm-3">
                         <input type="text" class="form-control" data-ng-model="email" id="email"
-                               placeholder="Valid Email Address" required>
+                               placeholder="Valid Email Address">
                     </div>
                     <div class="col-sm-3">
                         <input type="text" class="form-control" data-ng-model="phone" id="phone"
@@ -213,24 +211,22 @@
                     <br>
                     <br>
                     <br>
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <ul class="nav nav-pills center-pills">
-                                <h2><b>Climbing Method:</b></h2>
-                                <li role="presentation" data-ng-class='{"btn-danger": !sd}' data-ng-click="sd=false">
-                                    <a href="#apply">Direct Boosting</a>
-                                </li>
-                                <li role="presentation" data-ng-class='{"btn-danger": sd}' data-ng-click="sd=true"><a
-                                        href="#apply">Duo with our Team!</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-sm-12 text-center">
+                        <ul class="nav nav-pills center-pills">
+                            <h2><b>Climbing Method:</b></h2>
+                            <li role="presentation" data-ng-class='{"btn-danger": !sd}' data-ng-click="sd=false">
+                                <a href = "#apply">Direct Boosting</a>
+                            </li>
+                            <li role="presentation" data-ng-class='{"btn-danger": sd}' data-ng-click="sd=true"><a
+                                    href = "#apply">Duo with our Team!</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </form>
             <br>
             <p class="text-center">
-                <a href="#apply" class="btn btn-danger btn-lg btn-huge lato" data-ng-click="add()">Confirm Order</a>
+                <a href = "#apply" class="btn btn-danger btn-lg btn-huge lato" data-ng-click="add()">Confirm Order</a>
             </p>
 
             <br>
