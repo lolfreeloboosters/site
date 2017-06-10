@@ -193,7 +193,7 @@
                         </select>
                     </div>
                     <div class="col-sm-3">
-                        <select type="text" class="form-control" data-ng-model="lpg" id="lpg">
+                        <select type="text" class="form-control" data-ng-model="clp" id="clp">
                             <option value="">Current LP (Optional)</option>
                             <option value="1">20 or less</option>
                             <option value="2">21-40</option>
@@ -218,10 +218,10 @@
                             <ul class="nav nav-pills center-pills">
                                 <h2><b>Climbing Method:</b></h2>
                                 <li role="presentation" data-ng-class='{"btn-danger": !sd}' data-ng-click="sd=false">
-                                    <a href="services#apply">Direct Boosting</a>
+                                    <a href="#apply">Direct Boosting</a>
                                 </li>
                                 <li role="presentation" data-ng-class='{"btn-danger": sd}' data-ng-click="sd=true"><a
-                                        href="services#apply">Duo with our Team!</a>
+                                        href="#apply">Duo with our Team!</a>
                                 </li>
                             </ul>
                         </div>
@@ -234,10 +234,6 @@
             </p>
 
             <br>
-
-            <div class="well btn-danger" data-ng-show="confirmation">
-                <h3>Success! You will recieve an email shortly to work out all the fine details you desire!</h3>
-            </div>
 
         </div>
 

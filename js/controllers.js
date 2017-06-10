@@ -9,6 +9,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
     $scope.dl = "";
     $scope.dd = "";
     $scope.lpg = "";
+    $scope.clp = "";
     $scope.email = "";
     $scope.sd = false;
     $scope.phone = "";
@@ -28,6 +29,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
                 "dl": $scope.dl,
                 "dd": $scope.dd,
                 "lpg": $scope.lpg,
+                "clp": $scope.clp,
                 "email": $scope.email,
                 "sd": $scope.sd,
                 "phone": $scope.phone
@@ -44,6 +46,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
         $scope.dl = "";
         $scope.dd = "";
         $scope.lpg= "";
+        $scope.clp = "";
         $scope.email= "";
         $scope.sd = false;
         $scope.phone = "";
