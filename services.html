@@ -210,7 +210,6 @@
                     </div>
                     <br>
                     <br>
-                    <br>
                     <div class="col-sm-12 text-center">
                         <ul class="nav nav-pills center-pills">
                             <h2><b>Climbing Method:</b></h2>
@@ -226,11 +225,11 @@
             </form>
             <br>
             <p class="text-center">
-                <a href = "#apply" class="btn btn-danger btn-lg btn-huge lato" data-ng-click="add()">Confirm Order</a>
+                <a href = "#apply" class="btn btn-danger btn-lg lato" data-ng-click="add()">Confirm Order</a>
             </p>
-
-            <br>
-
+            <div class="btn-danger btn-huge lato" data-ng-show="confirmation">
+                <h3>Success! Thank you for applying we will email you ASAP!</h3>
+            </div>
         </div>
 
     </div>
