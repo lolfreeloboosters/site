@@ -12,7 +12,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
     $scope.clp = "";
     $scope.email = "";
     $scope.sd = false;
-    $scope.phone = "";
+    $scope.ref = "";
 
     $scope.confirmation = false;
 
@@ -32,7 +32,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
                 "clp": $scope.clp,
                 "email": $scope.email,
                 "sd": $scope.sd,
-                "phone": $scope.phone
+                "ref": $scope.ref
             }
         }).then(function success(resp){
             console.log(resp);
@@ -49,7 +49,7 @@ app.controller('apply.ctrl', ['$scope', '$http', function ($scope, $http) {
         $scope.clp = "";
         $scope.email= "";
         $scope.sd = false;
-        $scope.phone = "";
+        $scope.ref = "";
         $scope.confirmation = true;
     }
 }]);
