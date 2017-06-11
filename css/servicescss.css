@@ -256,17 +256,18 @@ footer .fa {
   background-color: rgba(0,0,0,0.7);
   color:#000;
 }
-
-#apply {
-  background-color: #f6f6f6;
-  background-color: rgba(0,0,0,0.3);
-  color:#fff;
-}
   
 #details {
   background-color: #f6f6f6;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.3);
   color:#C0C0C0;
+}
+
+
+#apply {
+  background-color: #f6f6f6;
+  background-color: rgba(0,0,0,0.7);
+  color:#fff;
 }
 
 #contact {
