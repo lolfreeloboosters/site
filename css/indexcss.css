@@ -74,8 +74,8 @@ a:hover {
 }
 
 .navbar-trans li>a:hover {
-	background-color:#D4AF37;
-	color:#fff;
+	background-color:#ffd242;
+	color:#000;
 	opacity:0.5;
 }
 
